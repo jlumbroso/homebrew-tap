@@ -1,25 +1,25 @@
 class Moreover < Formula
-  desc "A pager for readers who can't press space — cursor-based, non-interactive pagination for LLMs, agents, and scripts."
+  desc "Pager for readers who can't press space: cursor-based, non-interactive pagination for LLMs, agents, and scripts"
   homepage "https://github.com/jlumbroso/moreover"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jlumbroso/moreover/releases/download/v0.2.0/moreover-aarch64-apple-darwin.tar.xz"
-      sha256 "888bc0308cbf9a46518ecc28e5f5492dea561399383bb7f93cd7b33b4f6aa8e5"
+      url "https://github.com/jlumbroso/moreover/releases/download/v0.3.0/moreover-aarch64-apple-darwin.tar.xz"
+      sha256 "9f5f48bdb91780f604194f0039d232757ace5086037afa7c3f1c2f59681527b9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jlumbroso/moreover/releases/download/v0.2.0/moreover-x86_64-apple-darwin.tar.xz"
-      sha256 "1ba36d83d8669ed7a8fa30563cf78a742f7ae543f2d8f2fc688cfdbfe4dc7299"
+      url "https://github.com/jlumbroso/moreover/releases/download/v0.3.0/moreover-x86_64-apple-darwin.tar.xz"
+      sha256 "83de9525cf7ac91fb3a5ffb898f03cead7428485cbed56414fe6abb8c1cabc12"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jlumbroso/moreover/releases/download/v0.2.0/moreover-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "069536d86ef11f92d1a16dd3a12eb41896b35ac55f709344443c8997dc0fc341"
+      url "https://github.com/jlumbroso/moreover/releases/download/v0.3.0/moreover-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c9a1182d87828237aa7960a56a8453a5970894e0982e98b48cdc7fd8f4546bf9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jlumbroso/moreover/releases/download/v0.2.0/moreover-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d9ade8180ab3d270731211b21b05532f1b78c4bed0f763fa001fbe063dbef87c"
+      url "https://github.com/jlumbroso/moreover/releases/download/v0.3.0/moreover-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0b39f1c15d2544ecf75983b48f6640936e95a9f0f924cdd8c4dce1f5bceebab6"
     end
   end
   license "MIT"
